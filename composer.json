@@ -1,0 +1,29 @@
+{
+    "name": "kostamilorava/nova-translatable-slug",
+    "description": "Laravel Nova 4 translatable slug field",
+    "keywords": [
+        "laravel",
+        "nova"
+    ],
+    "license": "MIT",
+    "require": {
+        "php": "^7.3|^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Kostamilorava\\NovaTranslatableSlug\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Kostamilorava\\NovaTranslatableSlug\\FieldServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
